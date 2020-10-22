@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fafafa;
+}
+
+.app {
+  height: 100vh;
+}
+
+.app__headerContainer {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 999;
+}
+.app__header {
+  object-fit: contain;
+  background-color: #fff;
+  border: 2px solid #ededed;
+  padding: 20px;
+  display: flex;
+}
+
+.app__headerAuth {
+  margin-left: auto;
+}
+.app_loginContainer {
+  display: flex;
+}
+.app__signup {
+  display: flex;
+  flex-direction: column;
+}
+
+.app__error {
+  background-color: #f9e8e8;
+  border: 1px solid #a90b0b;
+  padding: 10px;
+  text-align: center;
+  margin: 5px auto;
+  color: #a90b0b;
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.app__container {
+  margin: 0px auto;
+  max-width: 700px;
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+.app__noPost {
+  background-color: #ededed;
+  text-align: center;
+  padding: 10px 0px;
+  margin: 20px 0px;
+  font-weight: bold;
+}
+
+.app__footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: black;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
